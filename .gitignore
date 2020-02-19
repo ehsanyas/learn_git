@@ -1,0 +1,19 @@
+# Local dirs containing large files
+temp/
+data/
+figures/
+
+# Local environment
+.envrc
+.env
+
+# IDE
+.idea/
+.vscode
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Byte-compiled / optimized files
+__pycache__
+*.py[cod]

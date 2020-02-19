@@ -68,3 +68,9 @@ git restore <file> to discard changes in working directory
 To replace local changes if you did something wrong:
 	- git checkout --<filename>
 This will replace the changes in your working tree with the last content in HEAD
+
+
+Combine stage and commit together:
+Adding the -a option to the git commit command makes
+Git automatically stage every file that is already tracked before doing the commit, letting you skip
+the git add part: 
