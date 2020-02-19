@@ -74,3 +74,14 @@ Combine stage and commit together:
 Adding the -a option to the git commit command makes
 Git automatically stage every file that is already tracked before doing the commit, letting you skip
 the git add part: 
+
+    
+    
+Log data:
+git log --stat
+git log --pretty= oneline
+git log --pretty=format:"%h - %an, %ar : %s 
+
+
+Undo commit:
+	- git commit --amend
